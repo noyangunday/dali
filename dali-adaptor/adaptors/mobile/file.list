@@ -1,0 +1,5 @@
+# mobile profile internal files
+adaptor_common_internal_mobile_profile_src_files = \
+  $(adaptor_mobile_dir)/pixmap-render-surface-factory.cpp \
+  $(adaptor_mobile_dir)/mobile-system-settings.cpp \
+  $(adaptor_mobile_dir)/mobile-color-controller-impl.cpp

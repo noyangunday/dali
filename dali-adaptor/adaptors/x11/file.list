@@ -1,0 +1,46 @@
+# x11
+
+_adaptor_x11_internal_src_files = \
+  $(adaptor_x11_dir)/clipboard-impl-x.cpp \
+  $(adaptor_x11_dir)/display-connection-impl-x.cpp \
+  $(adaptor_x11_dir)/imf-manager-impl-x.cpp \
+  $(adaptor_x11_dir)/pixmap-image-impl-x.cpp \
+  $(adaptor_x11_dir)/virtual-keyboard-impl-x.cpp \
+  $(adaptor_x11_dir)/window-impl-x.cpp \
+  $(adaptor_x11_dir)/egl-implementation-x.cpp \
+  $(adaptor_x11_dir)/pixmap-render-surface-x.cpp \
+  $(adaptor_x11_dir)/ecore-x-render-surface.cpp \
+  $(adaptor_x11_dir)/window-render-surface-x.cpp \
+  $(adaptor_x11_dir)/ecore-x-window-interface.cpp
+
+adaptor_ecore_x_event_handler_internal_src_files = \
+  $(adaptor_x11_dir)/ecore-x-event-handler.cpp
+
+adaptor_uv_x_event_handler_internal_src_files = \
+  $(adaptor_x11_dir)/x-event-handler.cpp \
+  $(adaptor_x11_dir)/x-events/x-event-manager.cpp \
+  $(adaptor_x11_dir)/x-events/x-input2.cpp \
+  $(adaptor_x11_dir)/x-events/x-input2-device.cpp \
+  $(adaptor_x11_dir)/x-events/debug/x-input2-debug.cpp
+
+adaptor_x11_ubuntu_internal_src_files = \
+  $(_adaptor_x11_internal_src_files)
+
+adaptor_x11_tizen_internal_src_files = \
+  $(_adaptor_x11_internal_src_files) \
+  $(adaptor_x11_dir)/accessibility-adaptor-impl-x.cpp \
+  $(adaptor_x11_dir)/framework-x.cpp \
+  $(adaptor_x11_dir)/key-mapping-x.cpp \
+  $(adaptor_x11_dir)/window-extensions.cpp
+
+adaptor_x11_tv_internal_src_files = \
+  $(_adaptor_x11_internal_src_files) \
+  $(adaptor_x11_dir)/accessibility-adaptor-impl-x.cpp \
+  $(adaptor_x11_dir)/framework-x.cpp
+
+adaptor_x11_internal_default_profile_src_files = \
+  $(adaptor_x11_dir)/ecore-x-render-surface-factory.cpp \
+  $(adaptor_x11_dir)/system-settings-x.cpp
+
+devel_api_adaptor_tizen_x11_header_files = \
+  $(adaptor_x11_dir)/window-extensions.h

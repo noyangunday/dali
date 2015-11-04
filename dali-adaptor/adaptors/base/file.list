@@ -1,0 +1,25 @@
+# Add local source files here
+
+base_adaptor_src_files = \
+  $(base_adaptor_src_dir)/display-connection.cpp \
+  $(base_adaptor_src_dir)/environment-options.cpp \
+  $(base_adaptor_src_dir)/frame-time.cpp \
+  $(base_adaptor_src_dir)/render-thread.cpp \
+  $(base_adaptor_src_dir)/thread-controller.cpp \
+  $(base_adaptor_src_dir)/thread-synchronization.cpp \
+  $(base_adaptor_src_dir)/update-thread.cpp \
+  $(base_adaptor_src_dir)/vsync-notifier.cpp \
+  $(base_adaptor_src_dir)/performance-logging/frame-time-stamp.cpp \
+  $(base_adaptor_src_dir)/performance-logging/frame-time-stats.cpp \
+  $(base_adaptor_src_dir)/performance-logging/performance-marker.cpp \
+  $(base_adaptor_src_dir)/performance-logging/statistics/stat-context.cpp \
+  $(base_adaptor_src_dir)/performance-logging/statistics/stat-context-manager.cpp
+
+base_adaptor_networking_src_files = \
+  $(base_adaptor_src_dir)/performance-logging/networking/network-performance-protocol.cpp \
+  $(base_adaptor_src_dir)/performance-logging/networking/network-performance-client.cpp \
+  $(base_adaptor_src_dir)/performance-logging/networking/network-performance-server.cpp \
+  $(base_adaptor_src_dir)/performance-logging/networking/event/automation.cpp \
+  $(base_adaptor_src_dir)/performance-logging/performance-server.cpp \
+  $(base_adaptor_src_dir)/performance-logging/performance-interface-factory.cpp
+

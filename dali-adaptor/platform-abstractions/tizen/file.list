@@ -1,0 +1,31 @@
+# Add local source files here:
+
+tizen_platform_abstraction_src_files = \
+  $(tizen_platform_abstraction_src_dir)/tizen-platform-abstraction.cpp \
+  $(tizen_platform_abstraction_src_dir)/tizen-logging.cpp \
+  \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/resource-loader.cpp \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/resource-requester-base.cpp \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/resource-bitmap-requester.cpp \
+  \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/resource-thread-base.cpp \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/resource-thread-image.cpp \
+  \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/network/file-download.cpp \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/network/http-utils.cpp \
+  \
+  $(tizen_platform_abstraction_src_dir)/resource-loader/debug/resource-loader-debug.cpp \
+  \
+  $(tizen_platform_abstraction_src_dir)/image-loaders/loader-bmp.cpp \
+  $(tizen_platform_abstraction_src_dir)/image-loaders/loader-gif.cpp \
+    $(tizen_platform_abstraction_src_dir)/image-loaders/loader-ico.cpp \
+  $(tizen_platform_abstraction_src_dir)/image-loaders/loader-jpeg-turbo.cpp \
+  $(tizen_platform_abstraction_src_dir)/image-loaders/loader-ktx.cpp \
+  $(tizen_platform_abstraction_src_dir)/image-loaders/loader-png.cpp \
+  $(tizen_platform_abstraction_src_dir)/image-loaders/loader-wbmp.cpp \
+  $(tizen_platform_abstraction_src_dir)/image-loaders/image-loader.cpp \
+  $(portable_platform_abstraction_src_dir)/image-operations.cpp
+
+# Add public headers here:
+
+# platform_abstraction_header_files =

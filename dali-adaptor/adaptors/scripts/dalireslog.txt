@@ -1,0 +1,23 @@
+Resource log analyzer tool for dali applications
+
+USAGE:
+./dalireslog.sh [FILE]
+if FILE isn't specified script will try to use dlogutil
+
+Example:
+
+sh-4.1$ ./dalireslog.sh
+on a separate terminal:
+sh-4.1$ DALI_ENABLE_LOG=RESOURCE_LOG /opt/apps/com.samsung.dali-demo/bin/album.example
+
+Displayed information:
+3D        - amount of GPU memory used by application
+MEM Atlas - amount of GPU memory used by texture atlases. Usually this means font atlases.
+Number of atlases - how many texture atlases are present in memory
+
+A list of files is displayed in the main view, with different color codes representing different states.
+
+CPU       - resource is in memory, but hasn't been uploaded to a GL texture
+GPU       - resource has been uploaded to a GL texture, bitmap buffer discarded
+CPUGPU    - resource has been uploaded to a GL texture, but still present in CPU memory as well
+DISCARDED - resource has been discarded, memory freed up

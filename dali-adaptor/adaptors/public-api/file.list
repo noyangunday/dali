@@ -1,0 +1,27 @@
+public_api_src_files = \
+  $(adaptor_public_api_dir)/adaptor-framework/application.cpp \
+  $(adaptor_public_api_dir)/adaptor-framework/key.cpp \
+  $(adaptor_public_api_dir)/adaptor-framework/window.cpp \
+  $(adaptor_public_api_dir)/adaptor-framework/timer.cpp \
+  $(adaptor_public_api_dir)/adaptor-framework/tts-player.cpp \
+  $(adaptor_public_api_dir)/adaptor-framework/pixmap-image.cpp \
+  $(adaptor_public_api_dir)/dali-adaptor-version.cpp
+
+
+public_api_header_files = \
+  $(adaptor_public_api_dir)/dali-adaptor-version.h
+
+
+public_api_adaptor_framework_header_files = \
+  $(adaptor_public_api_dir)/adaptor-framework/application.h \
+  $(adaptor_public_api_dir)/adaptor-framework/application-configuration.h \
+  $(adaptor_public_api_dir)/adaptor-framework/input-method.h \
+  $(adaptor_public_api_dir)/adaptor-framework/key.h \
+  $(adaptor_public_api_dir)/adaptor-framework/style-change.h \
+  $(adaptor_public_api_dir)/adaptor-framework/timer.h \
+  $(adaptor_public_api_dir)/adaptor-framework/tts-player.h \
+  $(adaptor_public_api_dir)/adaptor-framework/pixmap-image.h \
+  $(adaptor_public_api_dir)/adaptor-framework/window.h
+
+adaptor_dali_header_file = \
+  $(adaptor_public_api_dir)/dali.h

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="com.samsung.dali-demo" version="0.0.1" install-location="internal-only">
+<!-- NOTE THAT ALL LEADING WHITESPACE IN THIS FILE MUST BE TABS, NOT SPACES. APPS WITH LEADING SPACES WILL SILENTLY FAIL TO RUN ON A TARGET DEVICE. -->
+
+	<label>Dali Demo</label>
+	<author email="jonghyun.ho@samsung.com" href="www.samsung.com">Jonghyun Ho</author>
+	<description>DALi demo Application</description>
+
+	<ui-application appid="com.samsung.dali-demo" exec="/usr/apps/com.samsung.dali-demo/bin/dali-demo" nodisplay="false" multiple="false" type="c++app" taskmanage="true">
+		<icon>/usr/share/icons/com.samsung.dali-demo.png</icon>
+		<label>DALi demo</label>
+	</ui-application>
+	<ui-application appid="hello-world.example" exec="/usr/apps/com.samsung.dali-demo/bin/hello-world.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Hello World</label>
+	</ui-application>
+	<ui-application appid="new-window.example" exec="/usr/apps/com.samsung.dali-demo/bin/new-window.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>New Window</label>
+	</ui-application>
+	<ui-application appid="page-turn-view.example" exec="/usr/apps/com.samsung.dali-demo/bin/page-turn-view.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>PageTurnView Example</label>
+	</ui-application>
+	<ui-application appid="blocks.example" exec="/usr/apps/com.samsung.dali-demo/bin/blocks.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Blocks</label>
+	</ui-application>
+	<ui-application appid="bubble-effect.example" exec="/usr/apps/com.samsung.dali-demo/bin/bubble-effect.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Bubble Effect</label>
+	</ui-application>
+	<ui-application appid="cube-transition-effect.example" exec="/usr/apps/com.samsung.dali-demo/bin/cube-transition-effect.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Cube transition effect</label>
+	</ui-application>
+	<ui-application appid="dissolve-effect.example" exec="/usr/apps/com.samsung.dali-demo/bin/dissolve-effect.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Dissolve effect</label>
+	</ui-application>
+	<ui-application appid="item-view.example" exec="/usr/apps/com.samsung.dali-demo/bin/item-view.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Item View</label>
+	</ui-application>
+	<ui-application appid="magnifier.example" exec="/usr/apps/com.samsung.dali-demo/bin/magnifier.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Magnifier</label>
+	</ui-application>
+  <ui-application appid="motion-blur.example" exec="/usr/apps/com.samsung.dali-demo/bin/motion-blur.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+    <label>Motion Blur</label>
+  </ui-application>
+  <ui-application appid="model3d-view.example" exec="/usr/apps/com.samsung.dali-demo/bin/model3d-view.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+    <label>Model 3D Viewer</label>
+  </ui-application>
+  	<ui-application appid="motion-stretch.example" exec="/usr/apps/com.samsung.dali-demo/bin/motion-stretch.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Motion Stretch</label>
+	</ui-application>
+	<ui-application appid="radial-menu.example" exec="/usr/apps/com.samsung.dali-demo/bin/radial-menu.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Radial Menu</label>
+	</ui-application>
+	<ui-application appid="refraction-effect.example" exec="/usr/apps/com.samsung.dali-demo/bin/refraction-effect.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Refraction effect</label>
+	</ui-application>
+	<ui-application appid="scripting.example" exec="/usr/apps/com.samsung.dali-demo/bin/scripting.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Scroll View</label>
+	</ui-application>
+	<ui-application appid="scroll-view.example" exec="/usr/apps/com.samsung.dali-demo/bin/scroll-view.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Scroll View</label>
+	</ui-application>
+	<ui-application appid="shadow-bone-lighting.example" exec="/usr/apps/com.samsung.dali-demo/bin/shadow-bone-lighting.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Shadows and Lights</label>
+	</ui-application>
+	<ui-application appid="dali-builder" exec="/usr/apps/com.samsung.dali-demo/bin/dali-builder" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Builder</label>
+	</ui-application>
+	<ui-application appid="builder.example" exec="/usr/apps/com.samsung.dali-demo/bin/builder.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Script Based UI</label>
+	</ui-application>
+	<ui-application appid="image-scaling-and-filtering.example" exec="/usr/apps/com.samsung.dali-demo/bin/image-scaling-and-filtering.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Image Fitting and Sampling</label>
+	</ui-application>
+	<ui-application appid="image-scaling-irregular-grid.example" exec="/usr/apps/com.samsung.dali-demo/bin/image-scaling-irregular-grid.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Image Scaling Grid</label>
+	</ui-application>
+	<ui-application appid="buttons.example" exec="/usr/apps/com.samsung.dali-demo/bin/buttons.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Buttons</label>
+	</ui-application>
+	<ui-application appid="text-label.example" exec="/usr/apps/com.samsung.dali-demo/bin/text-label.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Text Label</label>
+	</ui-application>
+	<ui-application appid="text-label-multi-language.example" exec="/usr/apps/com.samsung.dali-demo/bin/text-label-multi-language.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Multi-language Text Label</label>
+	</ui-application>
+	<ui-application appid="text-label-emojis.example" exec="/usr/apps/com.samsung.dali-demo/bin/text-label-emojis.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Emojis Text Label</label>
+	</ui-application>
+	<ui-application appid="text-field.example" exec="/usr/apps/com.samsung.dali-demo/bin/text-field.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Text Field</label>
+	</ui-application>
+  <ui-application appid="text-fonts.example" exec="/usr/apps/com.samsung.dali-demo/bin/text-fonts.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+    <label>Text Fonts</label>
+  </ui-application>
+	<ui-application appid="text-message-field.example" exec="/usr/apps/com.samsung.dali-demo/bin/text-message-field.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Text Label</label>
+	</ui-application>
+	<ui-application appid="logging.example" exec="/usr/apps/com.samsung.dali-demo/bin/logging.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Logging</label>
+	</ui-application>
+	<ui-application appid="animated-shapes.example" exec="/usr/apps/com.samsung.dali-demo/bin/animated-shapes.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Animated shapes</label>
+	</ui-application>
+	<ui-application appid="path-animation.example" exec="/usr/apps/com.samsung.dali-demo/bin/path-animation.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Path Animation</label>
+	</ui-application>
+	<ui-application appid="atlas.example" exec="/usr/apps/com.samsung.dali-demo/bin/atlas.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Atlas</label>
+	</ui-application>
+	<ui-application appid="size-negotiation.example" exec="/usr/apps/com.samsung.dali-demo/bin/size-negotiation.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Size Negotiation</label>
+	</ui-application>
+	<ui-application appid="benchmark.example" exec="/usr/apps/com.samsung.dali-demo/bin/benchmark.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Benchmark</label>
+	</ui-application>
+	<ui-application appid="gradients.example" exec="/usr/apps/com.samsung.dali-demo/bin/gradients.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Color Gradient</label>
+	</ui-application>
+	<ui-application appid="image-view.example" exec="/usr/apps/com.samsung.dali-demo/bin/image-view.example" nodisplay="true" multiple="false" type="c++app" taskmanage="true">
+		<label>Image View</label>
+	</ui-application>
+</manifest>

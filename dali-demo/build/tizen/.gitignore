@@ -1,0 +1,12 @@
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+demo/dali-demo
+install_manifest.txt
+/demo/dali-demo
+/demo/dali-examples
+/demo/dali-performance
+/demo/performance.core
+/docs/dali.doxy
+/builder/dali-builder
+/examples/*.demo

@@ -1,0 +1,5 @@
+# Add local source files here
+
+plugin_src_files = \
+   $(plugin_src_dir)/dali-feedback.cpp
+

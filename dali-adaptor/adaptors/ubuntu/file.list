@@ -1,0 +1,10 @@
+# ubuntu
+
+adaptor_ubuntu_internal_src_files = \
+  $(adaptor_ubuntu_dir)/accessibility-adaptor-impl-ubuntu.cpp \
+  $(adaptor_ubuntu_dir)/adaptor-impl-ubuntu.cpp \
+  $(adaptor_ubuntu_dir)/framework-ubuntu.cpp \
+  $(adaptor_ubuntu_dir)/vsync-monitor-ubuntu.cpp \
+  $(adaptor_ubuntu_dir)/tilt-sensor-impl-ubuntu.cpp \
+  $(adaptor_ubuntu_dir)/tts-player-impl-ubuntu.cpp \
+  $(adaptor_ubuntu_dir)/key-mapping-ubuntu.cpp

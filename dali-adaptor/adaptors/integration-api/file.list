@@ -1,0 +1,19 @@
+adaptor_integration_api_header_files = \
+  $(adaptor_integration_api_dir)/adaptor.h \
+  $(adaptor_integration_api_dir)/egl-interface.h \
+  $(adaptor_integration_api_dir)/thread-synchronization-interface.h \
+  $(adaptor_integration_api_dir)/trigger-event-interface.h \
+  $(adaptor_integration_api_dir)/trigger-event-factory-interface.h \
+  $(adaptor_integration_api_dir)/trigger-event-factory.h \
+  $(adaptor_integration_api_dir)/pixmap-render-surface-factory.h
+
+adaptor_integration_wayland_api_header_files = \
+  $(adaptor_integration_api_dir)/wayland/ecore-wl-types.h \
+  $(adaptor_integration_api_dir)/wayland/ecore-wl-render-surface.h \
+  $(adaptor_integration_api_dir)/wayland/pixmap-render-surface.h
+
+adaptor_integration_x11_api_header_files = \
+  $(adaptor_integration_api_dir)/x11/ecore-x-types.h \
+  $(adaptor_integration_api_dir)/x11/ecore-x-render-surface.h \
+  $(adaptor_integration_api_dir)/x11/pixmap-render-surface.h \
+  $(adaptor_integration_api_dir)/x11/imf-manager-impl.h

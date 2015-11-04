@@ -1,0 +1,77 @@
+/*
+Copyright (c) 2000-2015 Samsung Electronics Co., Ltd All Rights Reserved
+
+This file is part of Dali Toolkit
+
+PROPRIETARY/CONFIDENTIAL
+
+This software is the confidential and proprietary information of
+SAMSUNG ELECTRONICS ("Confidential Information"). You shall not
+disclose such Confidential Information and shall use it only in
+accordance with the terms of the license agreement you entered
+into with SAMSUNG ELECTRONICS.
+
+SAMSUNG make no representations or warranties about the suitability
+of the software, either express or implied, including but not limited
+to the implied warranties of merchantability, fitness for a particular
+purpose, or non-infringement. SAMSUNG shall not be liable for any
+damages suffered by licensee as a result of using, modifying or
+distributing this software or its derivatives.
+*/
+
+{
+  "styles":
+  {
+    "textlabel-Rosemary":
+    {
+      "font-family":"Rosemary"
+    },
+    "textlabel":
+    {
+      "font-style":"Regular",
+      "point-size":18
+    },
+    "launcherlabel":
+    {
+      "point-size":18
+    },
+
+    "toolbarlabel":
+    {
+      "point-size":18
+    },
+
+    "builderlabel":
+    {
+      "point-size":13
+    },
+
+    "scrollview":
+    {
+      "overshoot-effect-color":"B018"
+    },
+
+    "grouplabel":
+    {
+      "point-size":9
+    },
+
+    "buttonlabel":
+    {
+      "point-size":11
+    },
+
+    "launcherbackground":
+    {
+      "background":
+      {
+        "renderer-type": "gradient-renderer",
+        "gradient-center": [240, 400],
+        "gradient-radius": 932,
+        "gradient-units": "user-space",
+        "gradient-stop-color": [[0.247,0.38,0.52,1.0],[0.055,0.18,0.286,1.0]],
+        "gradient-stop-offset":[0.0,1.0]
+      }
+    }
+  }
+}
